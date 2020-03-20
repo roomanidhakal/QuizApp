@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="quiz_name">The Disastrous Life Of SAiki k</string>
+    <string name="score_text">Your Score is</string>
+    <string name="question_1">1. Where does Saiki K. live?</string>
+    <string name="question_2">2. Who is Saiki\'s bestfriend?</string>
+    <string name="question_3">3. Where does Saiki go to school?</string>
+    <string name="question_4">4. Who is Saiki\'s Brother?</string>
+    <string name="question_5">5. What is Saiki\'s first name?</string>
+    <string name="question_6">6. What is Saiki deathly scared of?</string>
+    <string name="question_7">7. Who is the former delinquent?(punk kid).</string>
+    <string name="question_8">8. How old was Saiki when he first started to walk?</string>
+    <string name="question_9">9. What are two of the many powers Saiki has?</string>
+    <string name="question_10">10. What is Saiki\'s favorite food?</string>
+</resources>

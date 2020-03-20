@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".QuizAcitvity"
+        android:orientation="vertical">
+
+        <!-- Qusetion 1 -->
+        <TextView
+            android:text="@string/question_1"
+            style="@style/question_style" />
+
+        <RadioGroup
+            android:id="@+id/radio_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="Chicago"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:id="@+id/japan"
+                android:text="Japan"
+                style="@style/radiobutton_style"  />
+            <RadioButton
+                android:text="L.A."
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="England"
+                style="@style/radiobutton_style" />
+        </RadioGroup>
+
+        <!-- Qusetion 2 -->
+        <TextView
+            android:text="@string/question_2"
+            style="@style/question_style" />
+
+        <RadioGroup
+            android:id="@+id/radio_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="Nendo"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Hairo"
+                style="@style/radiobutton_style"  />
+            <RadioButton
+                android:text="Teruhashi"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:id="@+id/annoying"
+                android:text="No one they are all annoying to him"
+                style="@style/radiobutton_style" />
+        </RadioGroup>
+
+        <!-- Qusetion 3 -->
+        <TextView
+            android:text="@string/question_3"
+            style="@style/question_style" />
+
+        <RadioGroup
+            android:id="@+id/radio_answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/pk"
+                android:text="P.K. Academy"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="U.A. High School"
+                style="@style/radiobutton_style"  />
+            <RadioButton
+                android:text="The Ninja Academy"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="True Cross Academy"
+                style="@style/radiobutton_style" />
+        </RadioGroup>
+
+        <!-- Qusetion 4 -->
+        <TextView
+            android:text="@string/question_4"
+            style="@style/question_style" />
+
+        <RadioGroup
+            android:id="@+id/radio_answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="Saiki Kuniharu"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Saiki Kurumi"
+                style="@style/radiobutton_style"  />
+            <RadioButton
+                android:id="@+id/kusuke"
+                android:text="Saiki Kusuke"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Saiki Kumi"
+                style="@style/radiobutton_style" />
+        </RadioGroup>
+
+        <!-- Qusetion 5 -->
+        <TextView
+            android:text="@string/question_5"
+            style="@style/question_style" />
+
+        <RadioGroup
+            android:id="@+id/radio_answer5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/kusuo"
+                android:text="Kusuo"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Kusuke"
+                style="@style/radiobutton_style"  />
+            <RadioButton
+                android:text="Kuniharu"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Kumi"
+                style="@style/radiobutton_style" />
+        </RadioGroup>
+
+        <!-- Qusetion 6 -->
+        <TextView
+            android:text="@string/question_6"
+            style="@style/question_style" />
+
+        <RadioGroup
+            android:id="@+id/radio_answer6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="Humans because he does not like reading thoughts."
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Animals because he just has a fear of them."
+                style="@style/radiobutton_style"  />
+            <RadioButton
+                android:text="Nothing because he is psychic."
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:id="@+id/bugs"
+                android:text="Bugs because he can't read their minds."
+                style="@style/radiobutton_style" />
+        </RadioGroup>
+
+        <!-- Qusetion 7 -->
+        <TextView
+            android:text="@string/question_7"
+            style="@style/question_style" />
+
+        <RadioGroup
+            android:id="@+id/radio_answer7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="Shun Kaidou"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:id="@+id/aren"
+                android:text="Aren Kuboyasu"
+                style="@style/radiobutton_style"  />
+            <RadioButton
+                android:text="Riki Nendou"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Dark Reunion"
+                style="@style/radiobutton_style" />
+        </RadioGroup>
+
+        <!-- Qusetion 8 -->
+        <TextView
+            android:text="@string/question_8"
+            style="@style/question_style" />
+
+        <RadioGroup
+            android:id="@+id/radio_answer8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="One Year"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Six months"
+                style="@style/radiobutton_style"  />
+            <RadioButton
+                android:id="@+id/one_month"
+                android:text="One month"
+                style="@style/radiobutton_style" />
+            <RadioButton
+                android:text="Fifteen days"
+                style="@style/radiobutton_style" />
+        </RadioGroup>
+
+        <!-- Qusetion 9 -->
+        <TextView
+            android:text="@string/question_9"
+            style="@style/question_style"/>
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:text="Apport"
+            style="@style/checkbox_style" />
+
+        <CheckBox
+            android:id="@+id/check2"
+            android:text="Barrier"
+            style="@style/checkbox_style" />
+
+        <CheckBox
+            android:id="@+id/check3"
+            android:text="Eye Lasers"
+            style="@style/checkbox_style" />
+
+        <CheckBox
+            android:id="@+id/check4"
+            android:text="Clairvoyance"
+            style="@style/checkbox_style" />
+
+        <!-- Qusetion 10 -->
+        <TextView
+            android:text="@string/question_10"
+            style="@style/question_style"/>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Hint... Jelly"
+            android:textColor="#9e9e9e"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/color_white"
+            android:background="@color/accent"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
